@@ -1,0 +1,36 @@
+.Crepe#Title{
+    color: aqua;
+}
+
+.Crepe#body{
+    background-color: black;
+}
+
+.Scone#Title{
+    color: aqua;
+}
+
+.Scone#Picture{
+    height: 35em;
+    width: 35em;
+    border-radius: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Scone#Body{
+    background-color: black;
+}
+
+.index#header1{
+    color: coral;
+}
+
+/*This allows your page to be readable in dark mode*/
+html[data-theme='dark'] {
+    --text-color-normal: hsl(210, 10%, 62%);
+    --text-color-light: hsl(210, 15%, 35%);
+    --text-color-richer: hsl(210, 50%, 72%);
+    --text-color-highlight: hsl(25, 70%, 45%);
+  }
